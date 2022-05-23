@@ -17,7 +17,20 @@ img{
     max-width: 100%;
     height: auto;
 }
-
+.alignleft{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.aligncenter{
+    display: block;
+    margin: 0 auto 15px;
+}
 /*====================================
 Top Header css:
 =======================================================*/
@@ -212,6 +225,7 @@ Main Menu css:
     width: 180px;
     left: -9999999px;
     top: 33px;
+    z-index: 9999999;
 }
 #main_menu ul li:hover ul{
     left: 0;
@@ -246,4 +260,130 @@ Main Menu css:
 #main_menu ul ul li ul li a:hover{
     background: #333333;
     color: #ffff;
+}
+/*====================================
+Slider area css:
+=======================================================*/
+#slider_area{
+    margin-top: 20px;
+}
+/*====================================
+Hero css:
+=======================================================*/
+#hero_area{
+    background-color: #fff;
+    padding: 0;
+    margin-top: 20px;
+}
+.inner_hero{
+    overflow: hidden;
+}
+.inner_hero h2{
+    color: black;
+    font-size: 86px;
+    line-height: 1em;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.inner_hero p{
+    color: #666666;
+    font-size: 16px;
+    font-weight: normal;
+}
+.inner_hero a{
+    float: right;
+    color: #ba2e1f;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.inner_hero a:hover{
+    color: #000;
+}
+/*====================================
+Work Area css:
+=======================================================*/
+#work_area{
+    background: #f2f2f2;
+    padding: 45px 0;
+    min-height: auto;
+}
+.inner_work{
+    overflow: hidden;
+}
+.child_area_width{
+    width: 32%;
+    float: left;
+    margin: 0 1% 10px;
+}
+.inner_work h2{
+    font-size: 26px;
+    color: #333333;
+    font-weight: 700;
+}
+.inner_work p{
+    color: #878787;
+    font-size: 14px;
+    font-weight: normal;
+}
+.inner_work a{
+    color: #ba2e1f;
+    text-decoration: none;
+    clear: both;
+    float: right;
+    font-weight: normal;
+    font-size: 14px;
+    display: inline-block;
+}
+.about_area{
+    margin-left: 0;
+}
+.about_area img{
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+    display: block;
+    margin-bottom: 15px;
+}
+.testimonial_area{
+    margin-right: 0;
+}
+.service_area .child_service{
+    margin-bottom: 15px;
+}
+.child_service .service_image{
+    width: 25%;
+    float: left;
+}
+.child_service .service_text{
+    width: 75%;
+    float: right;
+}
+.child_service .service_text h3{
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.child_service .service_text p{
+    margin-top: 0;
+    line-height: 1.4em;
+}
+.testimonial_area{
+    margin: 0;
+}
+.child_testiminial{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.child_testiminial h3 {
+    background-image: url(images/comment.png);
+    background-repeat: no-repeat;
+    padding: 15px 0px 15px 65px;
+    color: #98989889;
+    font-size: 16px;
+    font-weight: 700;
+}
+.child_testiminial h3 span{
+    font-weight: normal;
 }
