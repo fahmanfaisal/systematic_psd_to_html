@@ -387,3 +387,201 @@ Work Area css:
 .child_testiminial h3 span{
     font-weight: normal;
 }
+/*====================================
+Footer Area css:
+=======================================================*/
+#footer_area{
+    background: #fff;
+    padding: 45px 0px;
+}
+.inner_footer{
+    overflow: hidden;
+
+}
+.child_footer{
+    padding: 1%;
+    margin: 0 1% 10px;
+    width: 21%;
+    float: left;
+}
+.child_footer h3{
+    color: #666666;
+    border-top: 1px solid #666666;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-top: 0px;
+}
+.child_footer h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+    margin-top: 0;
+}
+.child_footer h4 a{
+    text-decoration: none;
+    color: #666666;
+    float: none;
+}
+.child_footer h4 a:hover{
+    color: #ba2e1f;
+}
+.child_footer h6{
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.3em;
+}
+.child_footer p{
+    color: #666666;
+    font-size: 14px;
+}
+.child_footer p a{
+    text-decoration: none;
+}
+.child_blog {
+    width: 100%;
+    overflow: hidden;
+}
+.child_blog  a{
+    color: #ba2e1f;
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+}
+.child_footer a:hover{
+    color: #666666;
+}
+.child_footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.child_footer ul ul{
+    display: none;
+}
+.child_footer li{
+    background: url(images/next.png) center left;
+    background-repeat: no-repeat;
+    padding-left: 18px;
+    display: block;
+    border-bottom: 1px solid #666666;
+}
+.child_footer li:last-child{
+    border-bottom: 0px solid;
+}
+.child_footer li a {
+    color: #666666;
+    font-size: 14px;
+    text-decoration: none;
+}
+.child_footer li a:hover{
+    color: #ba2e1f;
+}
+.child_footer input{
+    background: #f2f2f2;
+    border: 1px solid;
+    padding: 10px 2%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 96%;
+}
+.child_footer textarea{
+    background: #f2f2f2;
+    border: 1px solid;
+    padding: 10px 2%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 96%;
+}
+.child_footer input[type="submit"]{
+    width: 80px;
+    color: #b92db9;
+    cursor: pointer;
+
+}
+.child_footer input[type="submit"]:hover{
+    background: #ba2e1f;
+    color: #fff;
+}
+
+/*====================================
+copyright Area css:
+=======================================================*/
+#copyrright_area{
+    background: #F2F2F2;
+    color: #919191;
+    padding: 20px 0;
+
+}
+.inner_copyright{
+    overflow: hidden;
+}
+.inner_copyright p{
+    font-size: 14px;
+}
+.leftcopy_area{
+    float: left;
+    width: 60%;   
+}
+.rightcopy_area{
+    float: right;
+    width: 40%;
+    position: relative;
+}
+a#goTop {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    text-decoration: none;
+    color: darkgreen;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #dddd;
+}
+/*====================================
+Responsive css:
+=======================================================*/
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .social_area {
+        max-width: 460px;
+    }
+    .inner_menu {
+        background: none;
+        min-width: none;
+    }
+    .inner_menu::after{
+        display: none;
+    }
+    .mean-container .mean-nav {
+        margin-top: 0px;
+        width: 85%;
+    }
+    .inner_top_header {
+        padding-top: 12px;
+    }
+    .inner_header {
+        padding: 20px 0px;
+    }
+    #slider_area {
+        margin-top: 0;
+    }
+    .inner_hero h2 {
+        font-size: 55px;
+    }
+    .inner_hero h2 span{
+        font-size: 32px !important;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .mini_menu{ width: 100%; margin-bottom: 10px;}
+    .mini_menu ul, .social_area ul{text-align: center;}
+    .search_area, .logo_area{ float: none; width: 250px; margin: 0 auto;}
+    .child_area_width {width: unset;}
+    .child_footer {width: unset;}
+    .inner_hero h2 {font-size: 32px;margin-left: 0px;}
+    #work_area {padding: 0px 0;}
+    .inner_hero a {margin-bottom: 10px;}
+    .leftcopy_area {float: none;width: 100%;text-align: center;}
+    .rightcopy_area {float: none;text-align: center;width: 100%;position: relative;}
+    a#goTop {padding: 7px;border-radius: 47%;}
+}

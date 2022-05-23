@@ -15,5 +15,9 @@ $(document).ready(function(){
                 items:3
             }
         }
-    })
+    });
+    $('#main_menu').meanmenu({
+        meanMenuContainer: '#mobile_menu',
+        meanScreenWidth: 991,
+    });
 });
